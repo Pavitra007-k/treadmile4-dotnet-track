@@ -1,1 +1,2 @@
-Create a partial view with carousel and invoke it in Index view of Home controller
+A)Create partial view with the name "MyPartialView" with your own content and invoke it from Index view Home controller and Index view of Employees controller
+B)Create a partial view with carousel and invoke it in Index view of Home controller(Note: If you are new to bootstrp & jquery please skip this for now)
