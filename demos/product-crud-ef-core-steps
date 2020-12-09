@@ -17,16 +17,19 @@ services.AddDbContext<ProductManagementSystemDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
 
             );
-step 4)add migrations and update database
+step 4) add connection string "appsettings.json"
+  "ConnectionStrings": {
+    "DefaultConnection": "server=localhost,1433;database=PMS_DB;user id=sa;password=<YourStrong@Passw0rd>"
+step 5)add migrations and update database
 open integrated command prompt and execute dotnet cli commands
 a) dotnet ef migrations add initial-create
 b) dotnet ef database update
 
-step 5)add the DbContext dependency in Products controller
+step 6)add the DbContext dependency in Products controller
 private ProductManagementSystemDbContext productManagementDb;//dependency injection
         public ProductsController(ProductManagementSystemDbContext productManagementDb)
         {
             this.productManagementDb = productManagementDb;
         }
-step 6) build solution
-step 7) perform CRUD operations
+step 7) build solution
+step 8) perform CRUD operations
