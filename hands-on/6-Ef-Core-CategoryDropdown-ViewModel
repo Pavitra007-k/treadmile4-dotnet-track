@@ -1,0 +1,4 @@
+In the previously created app add new model: Category with Id, Category fileds
+Add new view model: ProductCategory with List<Category>, Product
+Update Create view to accomodate Categories using dropdown 
+Save the employee/product details to database
