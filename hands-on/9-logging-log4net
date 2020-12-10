@@ -1,0 +1,1 @@
+Configure logging for your app using log4net to log app events to a file named "ems-log.log"
