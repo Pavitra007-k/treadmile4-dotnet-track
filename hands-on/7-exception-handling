@@ -1,0 +1,1 @@
+In the previous handson created, configure global exception filter which handles any exception and writes a message "Internal server error, please contact admin" using HttpContextAccessor
