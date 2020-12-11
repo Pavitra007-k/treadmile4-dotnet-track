@@ -1,0 +1,2 @@
+Create Account controller with Signup and Login action methods to perform registration and login facilities for the user
+User mode: Id, Email, Password
