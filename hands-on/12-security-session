@@ -1,0 +1,7 @@
+1)Enable session middleware
+2)Add session service with the required settings
+3)Upon successful login store employee's email in to session and redirect employee/index and the welcome <email> should be displayed on top right corner of home page
+4)Provide logout feature, when the user logs out it should be redirected to login page
+5)For anonymous users the employee home page should display brief employee details and a "View Details" link
+6)For authenticated users the employee home page should display brief employee details and "Create New Employee", "View Details", "Edit" and "Delete" links should
+be displayed
