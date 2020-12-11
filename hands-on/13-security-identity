@@ -1,0 +1,5 @@
+Create as asp.net core mvc project with individual user accounts authencation(identity) 
+1)Verify how it works register, login, logout, change password
+2)Check project structure and all the files created
+3)Observe Controllers, Models and Views generated
+4)Check how to customise models like to add first name, last name to user model
