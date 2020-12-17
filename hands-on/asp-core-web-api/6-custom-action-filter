@@ -1,0 +1,2 @@
+In the previously created app, write custom exception filter class by inheriting ActionFilterAttribute abstract class and override OnActionExecuting and OnActionExecuted
+methods. This custom filter apply on Employees controller
