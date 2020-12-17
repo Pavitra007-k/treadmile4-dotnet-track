@@ -1,0 +1,6 @@
+Configure routing middleware in your rest api and add following end points
+1)Add an end point for controller routes with the name "default" and the pattern should be {controller}/{action}/{id?} set the default controller as 
+Employees, action method as Get
+2)Add another endpoint for only GET requests with the patterns "/hello/{name:alpha}" where it accepts only alphabets [a-zA-Z]
+3)Add another endpoint for only GET requests with RequireHost. The host name should be "contoso.com"
+4)Add another endpoint with inline regex for US SSN
