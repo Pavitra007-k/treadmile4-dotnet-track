@@ -1,0 +1,7 @@
+Implement CORS with 3 policies 
+Policy1: https://mysite.com 
+Policy2: https://mysite2.com
+Policy1: https://mysite3.com
+
+Apply [EnableCors], [DisableCors]
+
