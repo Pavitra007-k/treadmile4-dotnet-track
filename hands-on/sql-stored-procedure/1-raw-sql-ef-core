@@ -1,0 +1,6 @@
+Create an Asp.Net Core REST API
+Using raw sql 
+1)Get all employees using sql inline
+2)Get all employees using stored procedure
+3)Get employee details by id using stored procedure
+4)Add new employee to db using stored procedure with params
